@@ -7,7 +7,7 @@ namespace CRUDWebApp.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; } = 0;
+        public int UserId { get; set; } = 0;
         public string Name { get; set; } = "";
         public string Department { get; set; } = "";
     }
