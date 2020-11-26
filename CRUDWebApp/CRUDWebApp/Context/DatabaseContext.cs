@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CRUDWebApp.Models;
+﻿using CRUDWebApp.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace CRUDWebApp.Context
