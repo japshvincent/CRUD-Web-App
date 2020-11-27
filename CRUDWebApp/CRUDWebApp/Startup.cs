@@ -29,7 +29,7 @@ namespace CRUDWebApp
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<DatabaseContext>(options => options.UseInMemoryDatabase("Employees"));
+            services.AddDbContext<DatabaseContext>(options => options.UseInMemoryDatabase("Users"));
 
             services.AddScoped<IUserService, UserService>();
 
